@@ -1,0 +1,13 @@
+name: MilliGrav
+version: 0.0.1
+description: "Simple Grav theme using simple CSS framework Milligram"
+icon: newspaper-o
+author:
+  name: Stanislav Vasko
+  email: stanislav.vasko@gmail.com
+  url: http://moreplavec.cz
+homepage: https://github.com/moreplavec/milligrav
+demo: 
+keywords: grav, milligram, fast, modern, theme, template
+bugs: https://github.com/moreplavec/milligrav/issues
+license: MIT

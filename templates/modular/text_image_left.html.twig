@@ -1,0 +1,17 @@
+{% set background_image = page.media['background.jpg'] %}
+{% set css = page.header.styles %}
+<div class="row featurette">
+
+    <div class="col-md-7 col-md-push-5">
+        {{ content }}
+    </div>
+
+    <div class="col-md-5 col-md-pull-7">
+        {% set image = page.media.images|first.url %}
+        {% if image %}
+            <img src="{{ image }}" class="featurette-image img-responsive center-block" />
+        {% endif %}
+    </div>
+</div>
+
+<hr class="featurette-divider" />
